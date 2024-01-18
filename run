@@ -1,0 +1,40 @@
+gitserver
+PRETTY_NAME="Ubuntu 22.04.3 LTS"
+NAME="Ubuntu"
+VERSION_ID="22.04"
+VERSION="22.04.3 LTS (Jammy Jellyfish)"
+VERSION_CODENAME=jammy
+ID=ubuntu
+ID_LIKE=debian
+HOME_URL="https://www.ubuntu.com/"
+SUPPORT_URL="https://help.ubuntu.com/"
+BUG_REPORT_URL="https://bugs.launchpad.net/ubuntu/"
+PRIVACY_POLICY_URL="https://www.ubuntu.com/legal/terms-and-policies/privacy-policy"
+UBUNTU_CODENAME=jammy
+eth0: flags=4163<UP,BROADCAST,RUNNING,MULTICAST>  mtu 9001
+        inet 172.31.39.188  netmask 255.255.240.0  broadcast 172.31.47.255
+        inet6 fe80::74:deff:fe9d:c34b  prefixlen 64  scopeid 0x20<link>
+        ether 02:74:de:9d:c3:4b  txqueuelen 1000  (Ethernet)
+        RX packets 7873  bytes 885778 (885.7 KB)
+        RX errors 0  dropped 0  overruns 0  frame 0
+        TX packets 6206  bytes 743112 (743.1 KB)
+        TX errors 0  dropped 0 overruns 0  carrier 0  collisions 0
+
+lo: flags=73<UP,LOOPBACK,RUNNING>  mtu 65536
+        inet 127.0.0.1  netmask 255.0.0.0
+        inet6 ::1  prefixlen 128  scopeid 0x10<host>
+        loop  txqueuelen 1000  (Local Loopback)
+        RX packets 138  bytes 13562 (13.5 KB)
+        RX errors 0  dropped 0  overruns 0  frame 0
+        TX packets 138  bytes 13562 (13.5 KB)
+        TX errors 0  dropped 0 overruns 0  carrier 0  collisions 0
+
+Active Internet connections (only servers)
+Proto Recv-Q Send-Q Local Address           Foreign Address         State       PID/Program name    
+tcp        0      0 0.0.0.0:22              0.0.0.0:*               LISTEN      550/sshd: /usr/sbin 
+tcp        0      0 127.0.0.53:53           0.0.0.0:*               LISTEN      307/systemd-resolve 
+tcp6       0      0 :::22                   :::*                    LISTEN      550/sshd: /usr/sbin 
+udp        0      0 127.0.0.1:323           0.0.0.0:*                           410/chronyd         
+udp        0      0 127.0.0.53:53           0.0.0.0:*                           307/systemd-resolve 
+udp        0      0 172.31.39.188:68        0.0.0.0:*                           305/systemd-network 
+udp6       0      0 ::1:323                 :::*                                410/chronyd         
