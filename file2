@@ -1,0 +1,44 @@
+NAME     MAJ:MIN RM   SIZE RO TYPE MOUNTPOINTS
+loop0      7:0    0  24.9M  1 loop /snap/amazon-ssm-agent/7628
+loop1      7:1    0  55.7M  1 loop /snap/core18/2812
+loop2      7:2    0  63.5M  1 loop /snap/core20/2015
+loop3      7:3    0  63.9M  1 loop /snap/core20/2105
+loop4      7:4    0 111.9M  1 loop /snap/lxd/24322
+loop5      7:5    0  40.9M  1 loop /snap/snapd/20290
+loop6      7:6    0  40.4M  1 loop /snap/snapd/20671
+xvda     202:0    0     8G  0 disk 
+├─xvda1  202:1    0   7.9G  0 part /
+├─xvda14 202:14   0     4M  0 part 
+└─xvda15 202:15   0   106M  0 part /boot/efi
+Filesystem      Size  Used Avail Use% Mounted on
+/dev/root       7.6G  1.9G  5.7G  25% /
+tmpfs           475M     0  475M   0% /dev/shm
+tmpfs           190M  840K  190M   1% /run
+tmpfs           5.0M     0  5.0M   0% /run/lock
+/dev/xvda15     105M  6.1M   99M   6% /boot/efi
+tmpfs            95M  4.0K   95M   1% /run/user/1000
+8.0K	./.git/logs/refs/remotes/origin
+12K	./.git/logs/refs/remotes
+8.0K	./.git/logs/refs/heads
+24K	./.git/logs/refs
+32K	./.git/logs
+8.0K	./.git/info
+4.0K	./.git/objects/pack
+8.0K	./.git/objects/86
+8.0K	./.git/objects/e1
+12K	./.git/objects/7b
+4.0K	./.git/objects/info
+8.0K	./.git/objects/3e
+8.0K	./.git/objects/2e
+8.0K	./.git/objects/12
+8.0K	./.git/objects/cc
+72K	./.git/objects
+64K	./.git/hooks
+4.0K	./.git/refs/tags
+8.0K	./.git/refs/remotes/origin
+12K	./.git/refs/remotes
+8.0K	./.git/refs/heads
+28K	./.git/refs
+4.0K	./.git/branches
+244K	./.git
+260K	.
